@@ -1,0 +1,26 @@
+To run frontend:
+Source code is BigDataFrontend.py
+Files are stored in run directory
+"Stage3FF" is the final reorganized dataset.
+
+Frontend demo link: https://www.youtube.com/watch?v=KxVDNO11sDM&feature=youtu.be
+
+To run backend:
+Source code is contained in src
+For demos run shell scripts with files available in corpora-proc folder
+(the data in/out folder):
+
+"vlsi.txt" for vlsi-demo.sh
+"human_cloning.txt" for do-human-cloning-LDA.sh
+
+Filtering and initial kmeans are shared between the Segmentation pipeline
+(vlsi-demo.sh) and LDA pipeline (do-human-cloning-LDA.sh).
+
+The former will then run segmentation code from:
+https://github.com/alexalemi/segmentation
+http://arxiv.org/pdf/1503.05543v1.pdf
+
+and the latter multicore LDA:
+https://radimrehurek.com/gensim/models/ldamulticore.html#module-gensim.models.ldamulticore
+
+Backend demo link: https://www.youtube.com/watch?v=LDXq6kQePVE&feature=youtu.be
