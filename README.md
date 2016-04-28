@@ -25,4 +25,4 @@ examineSETxRES-snapshot.py then examineSETxRES-LDA.py
 - vlsi-demo.sh executes the segmentation algorithm on documents queried using the term "vlsi".
 First it executes examineSETxRES.py then segmentSETxRES.py
 - The segmentation algorithm is implemented in representations.py, splitters.py and tools.py
-(work of 
+(work of alexalemi).
