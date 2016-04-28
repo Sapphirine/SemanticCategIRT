@@ -10,10 +10,10 @@ and further refactor so that the code becomes more clearly modularized (facts ac
 
 The following can be used as a guide to naviguate through the source / project-demo files:
 
-- BigDataFrontEnd.py is written by Miguel Costa, and fetches documents from the web using search engine
+- BigDataFrontEnd.py was written by Miguel Costa, and fetches documents from the web using search engine
 APIs authorized with trial accounts!
 
-The analytical pipelines is written by Sami Mourad:
+The analytical pipeline was written by Sami Mourad:
 
 - STOPWORD.list is used by precompiledRegex.py.
 - precompiledRegex.py(c), precompiledGenrSubScor.py(c) are included by examineSETxRES.py and
