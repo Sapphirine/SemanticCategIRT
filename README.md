@@ -16,8 +16,8 @@ APIs authorized with trial accounts!
 The analytical pipeline was written by Sami Mourad:
 
 - STOPWORD.list is used by precompiledRegex.py.
-- precompiledRegex.py(c), precompiledGenrSubScor.py(c) are included by examineSETxRES.py and
-examineSETxRES-snapshot.py which is basically a copy of the former with minor modifications
+- precompiledRegex.py(c), precompiledGenrSubScor.py(c) are included in examineSETxRES.py and
+examineSETxRES-snapshot.py, which is just a copy of the former with minor modifications
 (for the input).
 - do-human-cloning-LDA.sh runs the LDA analysis on a query of documents corresponding to the
 expression "human cloning" (which according to google is a hot topic). First it executes 
