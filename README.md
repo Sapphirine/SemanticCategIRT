@@ -1,7 +1,7 @@
 # SemanticCategIRT
 Search Engine corpus (document text, Semantic and Categorical) Information Retrieval and processing Tool
 
-Is a proof of concept / demo type of project only!
+Is a trial / demo type of project only!
 For a write-up and background ideas view the link (project ID 201505-24).
 
 It is probably preferable to organize files in the src directory into sub-directories, and refactor the
